@@ -29,7 +29,7 @@ function adjustAnchorLinkPosition() {
           var headerHeight = document.getElementById("header").offsetHeight;
           var targetPosition =
             targetElement.getBoundingClientRect().top +
-            window.pageYOffset -
+            window.scrollY -
             headerHeight;
 
           window.scrollTo({
