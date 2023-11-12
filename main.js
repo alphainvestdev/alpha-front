@@ -1,13 +1,4 @@
-// Set top for main content
-function adjustMainMargin() {
-  var header = document.getElementById("header");
-  var main = document.querySelector("main");
-  if (header && main) {
-    var headerHeight = header.offsetHeight;
-    main.style.paddingTop = headerHeight + "px";
-  }
-}
-
+// Set top for main content when navigating
 function adjustAnchorLinkPosition() {
   document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     anchor.addEventListener("click", function (e) {
