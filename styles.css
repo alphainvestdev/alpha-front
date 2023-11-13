@@ -24,7 +24,9 @@ body {
 }
 
 .section {
-  outline: 3px solid #09f /* Comment out before merge */
+  outline: 0px solid #09f; /* Comment out before merge */
+  margin: 1rem;
+  padding: 1rem;
 }
 
 /* ************************************************************************* */
