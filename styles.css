@@ -2,6 +2,7 @@
 
  :root {
   --bs-body-bg: var(--bs-gray-100);
+  --primary-color: #09f;
 }
 
 body {
