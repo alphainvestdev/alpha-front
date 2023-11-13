@@ -17,21 +17,21 @@
   <body>
     <!-- Header ---------------------------------------------------------------------------------->
     <header id="header" class="sticky-top">
-      <div class="container-fluid d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <div class="container-fluid d-flex flex-wrap justify-content-center py-3 border-bottom">
         <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
           <svg class="bi me-2" width="40" height="32">
             <use xlink:href="#bootstrap"></use>
           </svg>
-          <span class="fs-4">Alpha</span>
+          <span class="fs-4 logo-hover">Alpha</span>
         </a>
 
         <nav>
           <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-            <li class="nav-item"><a href="#team" class="nav-link">Team</a></li>
-            <li class="nav-item"><a href="#work" class="nav-link">Work</a></li>
-            <li class="nav-item"><a href="#pricing" class="nav-link">Pricing</a></li>
-            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+              <li class="nav-item"><a href="#about" class="nav-link hover-grow">About</a></li>
+              <li class="nav-item"><a href="#team" class="nav-link hover-grow">Team</a></li>
+              <li class="nav-item"><a href="#work" class="nav-link hover-grow">Work</a></li>
+              <li class="nav-item"><a href="#pricing" class="nav-link hover-grow">Pricing</a></li>
+              <li class="nav-item"><a href="#contact" class="nav-link hover-grow">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -39,8 +39,8 @@
 
     <!-- Main ------------------------------------------------------------------------------------>
     <main id="main" class="container-fluid">
-      <section id="home">
-        <div class="px-4 pt-5 my-5 text-center border-bottom">
+      <section id="home" class="section">
+        <div class="px-4 pt-2 text-center border-bottom">
           <h1 class="display-4 fw-bold text-body-emphasis">Alpha</h1>
           <div class="col-lg-6 mx-auto">
             <p class="lead mb-4">Innovating the future of investment</p>
@@ -55,7 +55,7 @@
             </div>
           </div>
         </div>
-        <div class="px-4 pt-5 my-5 text-center border-bottom">
+        <div class="px-4 pt-5 text-center border-bottom">
           <h1 class="display-4 fw-bold">Leading Innovation in Investment</h1>
           <p class="lead">Alpha - Pioneering the Future of Finance with Cutting-Edge Technology</p>
           <p class="mb-4">At Alpha, we believe in leveraging the power of blockchain, artificial intelligence, and research & development to transform the investment landscape. Our mission is to provide innovative and trustworthy investment solutions, driving success and growth in the tech-driven market.</p>
@@ -72,7 +72,7 @@
       
       </section>
 
-      <section id="section-about">
+      <section id="section-about" class="section">
         <div class="container py-5" id="about">
           <h3 class="text-center">ABOUT THE COMPANY</h3>
           <p class="text-center lead">Empowering the Future of Investment</p>
@@ -109,7 +109,7 @@
         </div>
       </section>      
       
-      <section id="section-business-areas">
+      <section id="section-business-areas" class="section">
         <div class="container py-5" id="business-areas">
           <h3 class="text-center">BUSINESS AREAS</h3>
           <p class="text-center lead">Exploring New Horizons in Investment</p>
@@ -167,7 +167,7 @@
         </div>
       </section>      
 
-      <section id="section-team">
+      <section id="section-team" class="section">
         <div class="container py-5" id="team">
           <h3 class="text-center">THE TEAM</h3>
           <p class="text-center lead">The Innovators Behind Alpha</p>
@@ -224,7 +224,7 @@
         </div>
       </section>            
 
-      <section id="section-statistics">
+      <section id="section-statistics" class="section">
         <div class="container py-5 text-center bg-dark text-white">
           <div class="row">
             <div class="col-md-3">
@@ -247,7 +247,7 @@
         </div>
       </section>      
 
-      <section id="section-work">
+      <section id="section-work" class="section">
         <div class="container py-5" id="work">
           <h3 class="text-center">OUR WORK</h3>
           <p class="text-center lead">Innovative Projects Shaping the Future</p>
@@ -300,7 +300,7 @@
         </div>
       </section>
 
-      <section id="section-pricing">
+      <section id="section-pricing" class="section">
         <div class="container py-5" id="pricing">
           <h3 class="text-center">PRICING PLANS</h3>
           <p class="text-center lead">Transparent Investment Models for Every Aspirant</p>
@@ -355,7 +355,7 @@
         </div>
       </section>     
 
-      <section id="section-contact">
+      <section id="section-contact" class="section">
         <div class="container py-5" id="contact">
           <h3 class="text-center">CONTACT US</h3>
           <p class="text-center lead">Connect with Alpha for Innovative Investment Solutions</p>
@@ -386,19 +386,22 @@
     </main>
 
     <!-- Footer ---------------------------------------------------------------------------------->
-    <footer  id="footer" class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <footer id="footer" class="d-flex flex-wrap py-5">
       <div class="col-md-4 d-flex align-items-center">
         <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
           <img src="./modules/bootstrap-icons/currency-bitcoin.svg" alt="Alpha Logo" width="30" height="24" style="filter: brightness(0) invert(1);">
         </a>
         <span class="mb-3 mb-md-0">© 2023 Alpha Investments</span>
       </div>
-    
-      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <li class="ms-3"><a class="text-body-secondary" href="https://twitter.com/alpha"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-        <li class="ms-3"><a class="text-body-secondary" href="https://instagram.com/alpha"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-        <li class="ms-3"><a class="text-body-secondary" href="https://facebook.com/alpha"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
-      </ul>
+
+      <div class="social-icons my-4">
+        <a href="#" class="me-2"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+        <a href="#" class="me-2"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+        <a href="#" class="me-2"><i class="fa fa-snapchat w3-hover-opacity"></i></a>
+        <a href="#" class="me-2"><i class="fa fa-pinterest-p w3-hover-opacity"></i></a>
+        <a href="#" class="me-2"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+        <a href="#" class="me-2"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+      </div>
     </footer>
 
     <!-- Scripts --------------------------------------------------------------------------------->

@@ -4,6 +4,9 @@
   --bs-body-bg: var(--bs-gray-100);
 }
 
+body {
+  font-family:'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif Tahoma, Geneva, Verdana, sans-serif;
+}
 /* ************************************************************************* */
 
 #header {
@@ -19,5 +22,48 @@
   background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
   color: white;
 }
+
+/* ************************************************************************* */
+
+.section {
+  outline: 0px solid #09f; /* Comment out before merge */
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.hover-grow {
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.hover-grow:hover {
+  transform: scale(1.1);
+  background-color: #09f;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}
+
+.logo-hover {
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  display: inline-block;
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.25rem;
+}
+
+.logo-hover:hover {
+  transform: scale(1.1);
+  background-color: #09f;
+  color: white;
+}
+
+#footer .nav a {
+  transition: color 0.3s, transform 0.3s;
+}
+
+#footer .nav a:hover {
+  color: #09f;
+  transform: translateY(-3px);
+}
+
 
 /* ************************************************************************* */
