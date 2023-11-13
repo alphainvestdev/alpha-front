@@ -23,13 +23,13 @@ body {
   color: white;
 }
 
+/* ************************************************************************* */
+
 .section {
   outline: 0px solid #09f; /* Comment out before merge */
   margin: 1rem;
   padding: 1rem;
 }
-
-/* ************************************************************************* */
 
 .hover-grow {
   transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
@@ -55,5 +55,15 @@ body {
   background-color: #09f;
   color: white;
 }
+
+#footer .nav a {
+  transition: color 0.3s, transform 0.3s;
+}
+
+#footer .nav a:hover {
+  color: #09f;
+  transform: translateY(-3px);
+}
+
 
 /* ************************************************************************* */
